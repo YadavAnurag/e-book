@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+p {
+    color: #555;
+}
+
+p > a {
+    text-decoration: none;
+    font-style: italic;
+    color: #555;
+}
+
+p > a:hover {
+    color: #6782eb;
+
+}
+
+#connect {
+    color: #555;
+    font-size: 25px;
+    margin-top: 10%;
+}
+
+#info {
+    color: #111;
+}
+
+.heading {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.contact_address {
+    margin-top: 40px;
+}
+
+.contact_address p:nth-child(1) {
+    color: #222;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contact_address p:nth-child(2) {
+    font-size: 15px;
+}
+
+#form_container {
+    padding: 20px;
+    padding-top: 0px;
+    width: 80%;
+    border-radius: 12px;
+    background-color: white;
+    margin-top: 10%;
+}
+
+form {
+    margin-top: 15%;
+}
+
+.input_with_icons {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+input {
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    height: 40px;
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.input_with_icons > i {
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+
+textarea {
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    height: 80px;
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 12px;
+}
+
+.icons {
+    color: #aaa;
+    font-size: 20px;
+}
+
+input[type=submit] {
+    border-radius: 18px;
+    width: 100%;
+    border: none;
+    background: linear-gradient(to right, #6782eb, #d225f9, #27d4e4);
+    cursor: pointer;
+    padding-left: 0px;
+    color: white;
+    margin-top: 10px;
+}
+
+input[type=submit]:hover {
+    box-shadow: 0px 0px 2px 0px #d225f9;
+}
+
+.heading {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.info {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+#left {
+    flex: 1;
+    padding-left: 15%;
+}
+
+#right {
+    flex: 1;
+}
+
+#bottom {
+    display: flex;
+    margin: 0 auto;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+#top {
+    width: 100%;
+    height: 300px;
+}
